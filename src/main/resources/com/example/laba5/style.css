@@ -1,0 +1,74 @@
+.button-link {
+  -fx-background-color: transparent;
+  -fx-text-fill: #01090a;
+  -fx-underline: true;
+  -fx-cursor: hand;
+  -fx-effect: null;
+}
+
+.button-exit {
+  -fx-background-color: #F44336;
+  -fx-text-fill: white;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(two-pass-box, gray, 5, 0.5, 2, 2);
+  -fx-cursor: hand;
+}
+
+.button-normal,
+.button-normal-big,
+.list-button {
+  -fx-background-color: #2bd710;
+  -fx-text-fill: white;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(two-pass-box, gray, 5, 0.5, 2, 2);
+  -fx-cursor: hand;
+}
+
+.combo-box {
+  -fx-background-color: #F5F5DD; /* Светло-бежевый */
+  -fx-text-fill: white;
+  -fx-border-radius: 10px;
+  -fx-effect: dropshadow(two-pass-box, gray, 5, 0.5, 2, 2);
+  -fx-cursor: hand;
+}
+
+.list-view,
+.tablet-view {
+  -fx-background-color: #F5F5DD; /* Светло-бежевый */
+  -fx-border-color:   #01090a; /* Light French Beige */
+  -fx-border-width: 2px;
+  -fx-border-radius: 10px;
+  -fx-padding: 10px;
+}
+
+.tex_2 {
+  -fx-text-fill: #01090a;
+  -fx-padding: 5px;
+}
+
+.field_text {
+  -fx-background-color: #F9F7F5;
+  -fx-background-radius: 5px;
+  -fx-border-radius: 5px;
+  -fx-border-color: #01090a;
+}
+
+.sidebar {
+  -fx-background-color: #CCCCCC; /* Светло-серый */
+}
+
+.pane {
+  -fx-background-color: #01090a;
+}
+
+.tablet-view .table-column {
+  -fx-background-color: #E6E6D4; /* Light Beige */
+  -fx-border-color:  #01090a; /* Light French Beige */
+  -fx-border-width: 0 1 0 0;
+}
+
+.tablet-view .table-cell {
+  -fx-text-fill: #01090a;
+  -fx-alignment: center;
+  -fx-padding: 5px;
+}
